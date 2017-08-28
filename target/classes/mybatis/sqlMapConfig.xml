@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" 
+"mybatis-3-config.dtd">
+<configuration>
+
+<typeAliases>
+<package name="com.zhiyou100.modle"/>
+</typeAliases>
+    
+    </configuration>
+   
+   
+   
+   
+   
+   
+   
+    <!--  通过报名找到对应文件 ，会找到当前包和子包那么必须保证1类名和文件名一致，类和文件在同一包下-->
+   
+    <!--mappers映射器，最后找到映射文件，叫路径映射从classpath开始，是绝对路径，不是相对路径  
+    
+    相对路径：applicationContest.xml
+    下
+    再建一个.xml文件，则用相对路径
+    
+    -->
+    <!-- mapper 如若通过雷鸣找到文件，那么必须保证雷鸣和文件名一致，雷鸣和文件在同一个包下 -->
+   <!--  <mapper class=""></mapper> -->
+    <!-- <package name=""/> 通过包名找文件，会找到当前报的子包，类和文件在同一个包下 -->
+ 
+     
